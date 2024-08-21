@@ -6,17 +6,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-800  grid place-content-center h-screen">
-    <div class="">
-        <div class="p-5 m-3 mx-auto bg-white rounded-lg shadow-lg flex items-center space-x-6 max-w-xs">
+<body class="bg-slate-800 grid place-content-center h-screen text-center"> <!-- Added text-center -->
+    <div class="max-w-xs mx-auto"> <!-- Centered the outer container -->
+        <div class="p-5 m-3 mx-auto bg-white rounded-lg shadow-lg flex items-center justify-center space-x-6">
             <div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042" alt="TailWind Logo">
             </div>
         </div>
-        <div class="p-5 max-w-xs mx-auto bg-white rounded-lg shadow-lg flex items-center space-x-6 ">
+        <div class="p-5 mx-auto bg-white rounded-lg shadow-lg flex items-center justify-center space-x-6">
             <div class="text-xl font-medium">
                 Tailwind CSS
                 <p class="text-slate-400">By Anirudh Das</p>
+            </div>
+        </div>
+    </div>
+    <button class="bg-sky-400 mt-3 p-2 text-white text-center text-base rounded-lg hover:bg-sky-700 mx-auto"> <!-- Centered button -->
+        Buy Now
+    </button>
+    <div class="mt-4 flex justify-center">
+        <div class="max-w-xs mx-auto bg-white rounded-lg overflow-hidden md:max-w-xl">
+            <div class="md:flex">
+                <div class="flex-shrink-0 md:w-2/3"> <!-- Added width to give more space to the image -->
+                    <img class="h-48 w-full object-cover md:h-96 md:w-full" src="https://images.pexels.com/photos/1739856/pexels-photo-1739856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Meeting Rooms">
+                </div>
+                <div class="p-6 md:w-1/3"> <!-- Reduced width to balance with the image -->
+                    <div class="uppercase font-sm text-indigo-800 font-bold">
+                        Designing Future
+                    </div>
+                    <a href="" class="block mt-1 text-lg text-blue-800 hover:text-purple-950">Tailwind CSS is the cornerstone of Future and shaping the web in a new way.!!</a>
+                </div>
             </div>
         </div>
     </div>
